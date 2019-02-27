@@ -2,8 +2,8 @@
 import boto.dynamodb
 conn = boto.dynamodb.connect_to_region(
     'us-east-1',
-    aws_access_key_id='AKIAJBMM7NYV2YUSCV5A',
-    aws_secret_access_key='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')
+    aws_access_key_id='X',
+    aws_secret_access_key='Y')
 
 conn
 
