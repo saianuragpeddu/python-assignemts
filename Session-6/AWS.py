@@ -8,3 +8,5 @@ key_pair = ec2.create_key_pair(KeyName='ec2-kaypair_new')
 keypairout = str(key_pair.key_material)
 print(keypairout)
 outfile.write(keypairout)
+
+---
