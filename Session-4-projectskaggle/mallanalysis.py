@@ -6,7 +6,7 @@ import os # accessing directory structure
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import seaborn as sns
 
-print(os.listdir('C:\\Users\\anura\\GitHub\\python-assignments\\Session-4-projectskaggle\\input'))
+print(os.listdir('...\\input'))
 
 # Distribution graphs (histogram/bar graph) of column data
 def plotPerColumnDistribution(df, nGraphShown, nGraphPerRow):
