@@ -102,7 +102,6 @@ print(df1.dtypes)
 # See any null in the Data
 print(df1.isnull().sum())
 
-
 # Data visulation
 plt.style.use('fivethirtyeight')
 
