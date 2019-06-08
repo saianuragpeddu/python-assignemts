@@ -67,7 +67,7 @@ def plotScatterMatrix(df, plotSize, textSize):
 
 nRowsRead = 1000 # specify 'None' if want to read whole file
 # Mall_Customers.csv has 27820 rows in reality, but we are only loading/previewing the first 1000 rows
-df1 = pd.read_csv('C:\\Users\\anura\\GitHub\\python-assignments\\Session-4-projectskaggle\\input\\Mall_Customers.csv', delimiter=',', nrows = nRowsRead)
+df1 = pd.read_csv('...\\input\\Mall_Customers.csv', delimiter=',', nrows = nRowsRead)
 df1.dataframeName = 'Mall_Customers.csv'
 nRow, nCol = df1.shape
 print(f'There are {nRow} rows and {nCol} columns')
